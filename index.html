@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bank</title>
+        <link rel="stylesheet" href="main.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700&family=Cairo:wght@200;300;700&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&family=Open+Sans:wght@300&family=Outfit:wght@300;400;500;600;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap"
+            rel="stylesheet">
+    </head>
+    <header>
+        <h1 class="log-msg">
+           Log in to started 
+        </h1>
+        <form action="">
+            <input type="text" name="user" placeholder="user" class="userInput">
+            <input type="password" placeholder="PIN" class="pinInput">
+            <input type="submit" name="" id="" class="submitButton" value="submit">
+        </form>
+            </header>
+
+<div class="container  ">
+            <div class="balance">
+<div class="balance-title">
+      <h2>Current balance</h2>
+      <p>As of 31/07/2020 ,18</p>
+</div>
+<h2 class="balance-value">25111.5</h2>
+        </div>
+        <div class="content">
+            <div class="movments">
+                <div class="movrow dispoit">
+                    <p>1 dispoit</p>
+                  <h3>1300 €</h3>
+                </div>
+                <div class="movrow withdrawal">
+                    <p>1 withdrawal</p>
+                  <h3>1300 €</h3>
+                </div>
+                 <div class="movrow dispoit">
+                    <p>1 dispoit</p>
+                  <h3>1300 €</h3>
+                </div>  
+        
+            </div>
+      <div class="operations">
+        <div class="transfer">
+            <h2>Transer money</h2>
+            <form action="" class="form-transfer">
+       <div>
+                <input type="text" name="" class="" id="transferto">
+                <label for="transferto">Transfer to</label>
+       </div>
+       <div>
+        <input type="number"id=Transferamount>
+        <label for="amount">amount</label>
+       </div>
+       <input type="submit" name="" id="" class="transferSubmit" value="transfer">
+            </form>
+        </div>
+
+        <!--      ---- ----------  -->
+        <div class="close">
+            <h2>Close Account</h2>
+            <form action="" class="form-close">
+       <div>
+                <input type="text" name="" class="" id="confirmUser">
+                <label for="confirmUser">Confirm user</label>
+       </div>
+       <div>
+        <input type="text"id=deletePin>
+        <label for="deletePin">Confirm pin</label>
+       </div>
+       <input type="submit" name="" id="" class="closeSubmit" value="Close">
+            </form>
+        </div>   
+        
+        
+        <!--   -----------------------------   -->
+                <div class="loan">
+            <h2>Request Loan</h2>
+            <form action="" class="form-loan">
+       <div>
+                <input type="text" name="" class="" id="loanAmount">
+                <label for="loanAmount">Amount</label>
+       </div>
+
+       <input type="submit" name="" id="" class="loanSubmit" value="loan">
+            </form>
+        </div>    
+
+      </div>
+        </div>
+</div>
+<footer >
+ <p>in <span class="in">0000€</span></p>
+ <p>in <span class="out">000€</span></p>
+ <p>interest <span class="interest">000€</span></p>
+ <button>Sort</button>
+ <p style="justify-self: end; font-weight: lighter; font-size: 20;">You will logged out in <span class="timer" style="color: black;   font-weight: lighter; font-size: 20;">5</span></p>
+</footer>
+        <script src="file.js"></script>
+</html>
